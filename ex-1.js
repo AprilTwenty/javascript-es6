@@ -12,5 +12,8 @@ let additionalProperties = {
 };
 
 // Start coding here
-
+let newStudentProfile = {
+  ...studentProfile,
+  ...additionalProperties
+};
 console.log(newStudentProfile);
